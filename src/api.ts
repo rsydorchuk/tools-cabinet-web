@@ -1,4 +1,4 @@
-const AUTH_BASE = "/auth";
+const AUTH_BASE = `${import.meta.env.VITE_API_BASE_URL ?? ""}/auth`;
 
 async function request(path: string, options: RequestInit = {}) {
   const res = await fetch(`${AUTH_BASE}${path}`, {
