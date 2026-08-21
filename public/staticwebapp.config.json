@@ -1,6 +1,6 @@
 {
     "navigationFallback": {
-        "rewrite": "index.hmtl",
+        "rewrite": "/index.html",
         "exclude": ["/assets/*","*.{css,js,png,svg,jpg,ico,json,woff2}"]
     }
 }
