@@ -14,7 +14,7 @@ import {
 import { useAuth } from "../auth/AuthContext";
 
 const APPS = [
-  { id: "image-convert", name: "Image convert", description: "PNG, JPEG, WebP", url: "http://localhost:3001" },
+  { id: "image-convert", name: "Image convert", description: "PNG, JPEG, WebP", url: import.meta.env.VITE_APP_IMAGE_CONVERTER_WEB ?? "" },
 ];
 
 export default function Apps() {
